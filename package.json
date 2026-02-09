@@ -1,0 +1,28 @@
+{
+  "name": "mern",
+  "version": "1.0.0",
+  "description": "basics of backend",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node backend/src/index.js",
+    "dev": "nodemon backend/src/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/adithya-periyasamy/mern.git"
+  },
+  "author": "Adithya",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/adithya-periyasamy/mern/issues"
+  },
+  "homepage": "https://github.com/adithya-periyasamy/mern#readme",
+  "dependencies": {
+    "bcrypt": "^6.0.0",
+    "dotenv": "^17.2.4",
+    "express": "^5.2.1",
+    "mongoose": "^9.1.6",
+    "nodemon": "^3.1.11"
+  }
+}
